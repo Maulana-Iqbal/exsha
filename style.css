@@ -1,0 +1,231 @@
+body{
+	background: url('src/bg.png');
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h3{
+	font-weight: bold;
+}
+
+
+/*atas*/
+
+#atas{
+	background-color:#1F5F95;
+}
+.jumbotron-pemandangan{
+	background:url('src/pemandangan.png') no-repeat;
+	background-size: 100%;
+}
+
+.top h2{
+	color: white;
+	background-color: #111f33;
+}
+.jb-content img{
+	width: 80%;
+}
+
+.jb-footer h2{
+	color: white;
+	font-weight: 700;
+}
+
+
+.orang img{
+	width: 100%;
+}
+.content-orang {
+	width: 100%;
+	text-align:center;
+    font-size: 2vw;
+    color: white;
+    position: absolute;
+    bottom: 8%;
+}
+/*product*/
+
+.product{
+	background-color: #0e2f75;
+	color: white;
+	position: relative;
+}
+
+.product::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 40%;
+	background-image: linear-gradient(to top,#498DC2,#0e2f75);
+	position: absolute;
+	bottom: 0;
+}
+
+.product .container{
+	z-index: 1;
+	position: relative;
+}
+
+.sapi-gambar img{
+	width: 80%;
+	height: auto;
+}
+.content-judul h1{
+    font-size: 3rem;
+}
+.judul-img{
+	width: 23vh;
+}
+
+.content-komposisi p{
+	font-size: 2vw;
+}
+
+.product-list li{
+	text-align: left;
+	font-size: 25px;
+}
+
+.sapi-text{
+	font-size: 30px;
+}
+
+/*Manfaat*/
+.content-judul-manfaat h1{
+    font-size: 4rem;
+}
+.manfaat{
+	background-color: #498DC2;
+	color: white;
+	position: relative;
+}
+
+.manfaat::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to bottom, #498DC2,#7db2db);
+	position: absolute;
+	bottom: 0;
+}
+
+.manfaat .container {
+	z-index: 1;
+	position: relative;
+}
+
+.manfaat-content img{
+	width: 100%;
+	float: left;
+}
+
+.manfaat-list li{
+	text-align: left;
+	font-size: 25px;
+}
+
+.manfaat-card{
+	color:  black;
+}
+
+/*info*/
+.info{
+	background-color: #7db2db;
+}
+
+.card-info{
+	width: 70%;
+
+}
+
+.card-body-content{
+	margin-left: 10px;
+	padding:15px;
+}
+.card-info img{
+	width: 15vh;
+	height: 13vh;
+	max-height: 100%;
+	max-width :100%;
+}
+
+/*Produksi*/
+.produksi-content-gambar-isi{
+	font-size:larger;
+}
+.produksi{
+	background-color: #7db2db;
+	color: white;
+}
+
+.produksi-content-gambar img{
+	width: 100%;
+}
+
+.produksi-content-gambar table td{
+	text-align: left;
+	color: white;
+	padding: 0px;
+}
+
+/*cara-dapatkan*/
+.cara-dapatkan{
+	background-color: #7db2db;
+	color: white;
+	padding-bottom: 0px;
+}
+
+.cara-dapatkan h1{
+	font-size: 3em;
+}
+
+
+
+/* label */
+.label{
+	background-color: #0151a5;
+	height: 100%;
+	color: white;
+}
+
+.label h1{
+	font-size: 2.2em;
+	margin-bottom: 0px;
+}
+
+/* bawah */
+.bg-bawah {
+	background:url('src/alam2.png') no-repeat;
+	background-size: cover;
+
+}
+
+
+.bawah-judul-sub p{
+	font-size: xx-large;
+}
+
+.bawah-card{
+	width: 80%;
+}
+.bawah-card-transparent{
+	background-color: rgba(0, 0, 0, 0.671); 
+}
+.bawah-card-body p{
+	text-align: left;
+}
+
+.bawah-card-body p{
+	text-align: left;
+	font-size: xx-large;
+	margin-top: 0px;
+}
+
+.bawah-card-body li{
+	font-size: x-large;
+}
+
+.card-img{
+	width: 15vh;
+}
